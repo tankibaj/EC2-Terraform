@@ -22,9 +22,3 @@ Provision ec2 instance(s) using Terraform and Cloud-init.
   ```bash
   terraform apply
   ```
-
-#### Clean up your workspace
-
-```bash
-terraform destroy
-```
