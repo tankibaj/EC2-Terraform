@@ -44,7 +44,7 @@ resource "aws_instance" "this" {
   monitoring             = var.monitoring
 
   tags = {
-    Name = random_pet.this.id
+    Name        = random_pet.this.id
     Description = "Terraform"
   }
 }
